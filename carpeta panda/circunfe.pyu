@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.plot([1, 8, 4, 1], [2, 4, 7, 2])
+plt.show()
+
+def f(x):
+    y = math.sqrt(4-((x-2)**2))
+    return y
+
+x = np.linspace(-10, 10, 10)
+plt.plot(x, f(x), color = "red", markersize = 3)
+plt.show()
